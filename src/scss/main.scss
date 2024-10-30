@@ -104,3 +104,90 @@ video {
 // ---------------------------------------------
 // Votre code ici :
 // ---------------------------------------------
+
+.marker .product-cart {
+  opacity: 0%;
+  transition: 0.5s;
+}
+
+.marker:hover .product-cart {
+  opacity: 100%;
+}
+
+.marker .product-cart:hover {
+  background-color: #2c5192;
+}
+
+.pencil .product-cart {
+  transform: translateY(-100px);
+  opacity: 0%;
+  transition: 0.5s;
+}
+
+.pencil:hover .product-cart {
+  opacity: 100%;
+  transform: translateY(0);
+}
+
+.pencil .product-cart:hover {
+  background-color: #2c5192;
+}
+
+.pencil .product-cart {
+  transform: translateY(-100px);
+  opacity: 0%;
+  transition: 0.5s;
+}
+
+.scissors {
+  transition: 0.5s;
+}
+
+.scissors .product-title {
+  transition: 1s;
+}
+.scissors .product-price {
+  transition: 1s;
+}
+
+.scissors:hover {
+  background-color: #2c5192;
+}
+
+.scissors:hover .product-title {
+  color: white;
+}
+
+.scissors:hover .product-price {
+  color: rgb(227, 227, 227);
+}
+
+.product-image {
+  overflow: hidden;
+}
+
+.sketchbook img {
+  transition: 0.5s;
+}
+
+.sketchbook img:hover {
+  transform: scale(1.2);
+}
+
+.glue .product-image {
+  filter: blur(3px);
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+.glue .product-image:hover {
+  filter: blur(0px);
+}
+
+.share-list {
+  opacity: 0%;
+}
+
+.share-icon:hover .share-list:hover {
+  opacity: 100%;
+}
