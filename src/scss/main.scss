@@ -184,10 +184,26 @@ video {
   filter: blur(0px);
 }
 
-.share-list {
+.share .share-list .share-icon {
+  transform: translateY(-30px);
   opacity: 0%;
+  transition: 0.5s;
+  pointer-events: none;
 }
 
-.share-icon:hover .share-list:hover {
+.share:hover .share-list .share-icon {
+  transform: translateY(0px);
   opacity: 100%;
+}
+
+.share-list .share-icon:nth-child(1) {
+  transition-delay: 0s;
+}
+
+.share-list .share-icon:nth-child(2) {
+  transition-delay: 0.3s;
+}
+
+.share-list .share-icon:nth-child(3) {
+  transition-delay: 0.6s;
 }
